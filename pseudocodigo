@@ -129,19 +129,38 @@ _______
 
 Receber uma lista de idades de 6 alunos e Imprimir o resultado da soma de todas as idades dos alunos usando um loop
 
+Para (Variável x  = 0 , x < 6 , x++ ) {
+    Imprimir x + x++;
+}
+
+
 _______
 
 Receber uma lista de nomes e imprimir quantos Vitor existem
+Variável nomes = [];
+Para cada (nomes como "Vitor") {
+    Imprimir 1  + 1++;
+}
 
-_______
+}
+____
 
 Receber uma lista de pessoas e imprimir quantos tem mais de 18 anos
+Variável pessoas = [[nome,idade]];
+Para cada (pessoas como idade > 18) {
+    Imprimir pessoas;
+}
 
 _______
 
 Receber uma lista que contém inúmeros objetos que terão nome do curso e data limite e Imprimir o nome do curso ao lado da data limite
 
+Variável objetos = [[nome,dataLimite]] 
+Para cada (objetos como objetos) {
+    Imprimir objetos->nome , "-" , objetos-dataLimite;
+}
 _______
 
 Receber uma lista que contém inúmeros objetos que terão nome e estado civil e imprimir o nome do estao civil mais repetido
 
+Variável objetos = [[nome,estadoCivil]];
